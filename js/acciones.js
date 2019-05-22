@@ -13,8 +13,8 @@ $(document).ready(function(e){
  }
  
  function getPosition(){
-	 var options = {
-		 enableHighAccuracy: true,
+	 var options={
+		 enableHighAccuracy :true,
 		 maximumAge:3600000
 	 }
 	 
@@ -24,12 +24,11 @@ function onSuccess(position){
 	
 	alert('Latitude:' + position.coords.latitude +'\n' +
 	 'Longitude:'     + position.coords.longitude + '\n');
-	
-};
+	};
 
 function onError(error){
 	alert ('code:' + error.code + '\n' + 'message:' + error.message + '\n');
+  }
 }
- }
 	 
  
