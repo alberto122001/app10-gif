@@ -13,7 +13,7 @@ $(document).ready(function(e){
  }
  
  function getPosition(){
-	 var options={
+	 var options = {
 		 enableHighAccuracy :true,
 		 maximumAge:3600000
 	 }
